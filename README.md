@@ -42,3 +42,17 @@ There is import.sql with some dummy data as an example. For this data, it should
 
 ## TRY TO MAKE CODE AS CLEAN AND PERFORMANT AS POSSIBLE!
 
+
+### Usage
+
+To run the Spring Boot application, use the following command:
+
+```bash
+mvn spring-boot:run
+```
+
+You can then test the endpoint with the following `curl` command:
+
+```bash
+curl -X GET http://localhost:8080/campaign/summary/a9cf9e86-e7a5-4934-bbed-8aa03a086aed
+```
